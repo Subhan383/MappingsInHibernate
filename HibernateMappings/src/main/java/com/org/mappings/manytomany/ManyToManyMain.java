@@ -20,7 +20,7 @@ public class ManyToManyMain {
 		Session session=factory.openSession();
 		Transaction trans=session.beginTransaction();
 		//Added
-
+         //
 		Set<Course> courses=new HashSet<Course>();
 		courses.add(new Course(1,"Maths"));
 		courses.add(new Course(2,"Science"));
