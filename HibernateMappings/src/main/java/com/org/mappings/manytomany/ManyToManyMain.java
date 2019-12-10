@@ -19,7 +19,7 @@ public class ManyToManyMain {
 		SessionFactory factory = meta.getSessionFactoryBuilder().build();
 		Session session=factory.openSession();
 		Transaction trans=session.beginTransaction();
-		
+		//Added
 
 		Set<Course> courses=new HashSet<Course>();
 		courses.add(new Course(1,"Maths"));
