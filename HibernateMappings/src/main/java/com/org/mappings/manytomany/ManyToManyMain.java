@@ -21,7 +21,7 @@ public class ManyToManyMain {
 		Transaction trans=session.beginTransaction();
 		
 		
-		
+		//Added Comments
 		Set<Course> courses=new HashSet<Course>();
 		courses.add(new Course(1,"Maths"));
 		courses.add(new Course(2,"Science"));
